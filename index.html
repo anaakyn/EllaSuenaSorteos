@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ella Suena Sorteos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+    <h1>Ella Suena Sorteos</h1> 
+    <div class="container">
+        <div class="title-container">
+            <img src="../EllaSuenaSorteos/assets/Screenshot 2025-01-31 185421.png" class="icon">
+            <h2>¡Mucho Éxito!</h2> 
+            <img src="../EllaSuenaSorteos/assets/Screenshot 2025-01-31 185421.png" class="icon">
+        </div>
+            <input type="file" id="fileInput" />
+            <pre id="output"></pre>
+        <div class="button-container">
+            <button id="selectWinnerBtn" style="display: none;">Seleccionar ganador</button>
+            <button id="resetBtn" style="display: none;">Reset</button>
+        </div>   
+        <div class="winner-list-container">
+            <h3>¡Ganadores!</h3>
+            <ul id="winnerList"></ul>
+        </div>             
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
